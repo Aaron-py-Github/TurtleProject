@@ -1,0 +1,36 @@
+# use this in pycharm
+import turtle
+forw = 0.1
+yellow = turtle.Turtle()
+yellow.color("yellow")
+yellow.speed(2500)
+cyan = turtle.Turtle()
+cyan.color("cyan")
+cyan.speed(2000)
+blue = turtle.Turtle()
+blue.color("blue")
+blue.speed(1500)
+black = turtle.Turtle()
+black.color("black")
+black.speed(500)
+red = turtle.Turtle()
+red.color("red")
+red.speed(1000)
+while True:
+    yellow.forward(forw)
+    yellow.left(200)
+    yellow.left(1)
+    cyan.forward(forw)
+    cyan.left(180)
+    cyan.left(1)
+    red.forward(forw)
+    red.left(140)
+    red.left(1)
+    blue.forward(forw)
+    blue.left(100)
+    blue.left(1)
+    black.forward(forw)
+    black.left(160)
+    black.right(1)
+    forw += 1
+
